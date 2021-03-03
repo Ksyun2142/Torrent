@@ -1,0 +1,109 @@
+a{
+	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+.shapka{
+	width:100%;
+	max-width: 100%;
+	margin: 0;
+    padding: 0;
+	background:#fdefce;
+	
+	
+}
+
+.shapka1{
+	
+	 background: #f1d29c;
+	
+}
+
+body{
+	background:white;
+}
+
+.table1 {
+	width: 70%; /* Ширина таблицы */
+    font-size:12pt;
+    background:#f1d29c;
+    border: 2px;
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   
+	
+}
+.hr{
+display:flex;  
+  list-style:none;
+   font-size:16pt;
+   
+  
+}
+
+.leftimg { /* обтекание текста картинки */
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+
+.text{
+	font-size:10pt;}
+
+.gradient {
+background: -webkit-linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+background: -moz-linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+background: linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+    padding: 3%;
+    
+	
+   }
+   .gradient1 {
+background: -webkit-linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+background: -moz-linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+background: linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+     margin-top: 1%;
+    border: 2px solid #333;
+	border-color: #f1d29c;
+	list-style: square outside;
+	
+   }
+   .gradient2 {
+background: -webkit-linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+background: -moz-linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+background: linear-gradient(0deg, rgb(255, 255, 255) 67%, rgb(233, 241, 249));
+     margin-top: 1%;
+    border: 2px solid #333;
+	border-color: #f1d29c;
+	list-style: square outside;
+	
+   }
+.name{
+	   font-size:12pt;
+	   background: #f1d29c;
+	   font-weight:bold
+	   
+   }
+   .name1{
+	   border-bottom: 3px solid #333;
+	   font-size:12pt;
+	   background: #f1d29c;
+	   font-weight:bold;
+	   border-color: #f1d29c;
+	   
+   }
+   li {
+    color: #f1d29c; /* Цвет маркеров */
+	 margin-bottom: 1px;
+	 
+   }
+   li span {
+    color: black; /* Цвет текста */
+	font-weight:bold;
+	font-size:10pt;
+	float: left;
+	
+   }
+   
+   footer {
+  margin-top: -100px;
+  /*Минус Высота футера*/
+  height: 100px;
+  /*Высота футера*/
+}
